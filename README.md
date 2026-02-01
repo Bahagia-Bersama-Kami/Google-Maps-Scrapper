@@ -21,6 +21,18 @@ To do a custom web scraping project you can find me on Upwork
 - Google Chrome or Chromium browser installed (for Playwright)
 
 ## Key Features
+- Cross-Platform Support: Automatically detects browser location (Chrome/Chromium/Firefox) on both Windows and Linux and or emulation device.
+
+- WhatsApp Extraction: In addition to the standard phone number, the script now tries to retrieve WhatsApp information if available.
+
+- Dual Format (CSV & XLSX): Supports saving in .csv or .xlsx format based on the file extension you specify.
+
+- Excel Auto-Fit: When saving to Excel, the script automatically adjusts the column width based on the data length (with a fixed width of 25 for the address column).
+
+- Direct Access Method: Uses direct URLs for searches to improve stability in slow environments (such as PRoot Termux or VPS).
+
+- Anti-Duplicate: Ensures that the data retrieved is unique based on the place name during the session process.
+
 - Data Scraping: The script scrapes data from Google Maps listings, extracting valuable information about businesses, such as their name, address, website, and contact details.
 
 - Review Analysis: It extracts review counts and average ratings, providing insights into businesses' online reputation.
